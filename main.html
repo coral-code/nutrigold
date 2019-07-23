@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="0-viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body id="background">
+  <div id="profile-container">
+   <image id="profileImage" src="dummy.png" />
+</div>
+<input id="imageUpload" type="file"
+       name="profile_photo" placeholder="Photo" required="" capture >
+       <script>
+       $("#profileImage").click(function(e) {
+         $("#imageUpload").click();
+       });
+
+       function fasterPreview( uploader ) {
+         if ( uploader.files && uploader.files[0] ){
+               $('#profileImage').attr('src',
+                  window.URL.createObjectURL(uploader.files[0]) );
+         }
+       }
+
+       $("#imageUpload").change(function(){
+         fasterPreview( this );
+       });
+</script>
+
+  <a href="file:///C:/Users/GWC/Desktop/nutrigold/redeem.html"><img id="photo" src="redeem.png">
+<div id="username">
+sillycupcake45</div>
+<div class="glass"> </div>
+
+<div id="cards">
+
+<div>
+<div>
+<div>
+
+<div class="card text-white bg-warning mb-3" style="width: 100rem;">
+  <div class="card-header">
+    breakfast
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Cras justo odio</li>
+    <li class="list-group-item">Dapibus ac facilisis in</li>
+    <li class="list-group-item">Vestibulum at eros</li>
+  </ul>
+</div>
+<!--lunch--->
+</div>
+<div class="card" style="width: 100rem;">
+  <div class="card-header">
+Lunch
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Cras justo odio</li>
+    <li class="list-group-item">Dapibus ac facilisis in</li>
+    <li class="list-group-item">Vestibulum at eros</li>
+  </ul>
+</div>
+<!--dinner--->
+
+</div>
+<div class="card" style="width: 100rem;">
+  <div class="card-header">
+  Dinner
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Cras justo odio</li>
+    <li class="list-group-item">Dapibus ac facilisis in</li>
+    <li class="list-group-item">Vestibulum at eros</li>
+  </ul>
+</div>
+</div>
+
+</div>
+
+<div class="oval"></div>
+</body>
+</html>
