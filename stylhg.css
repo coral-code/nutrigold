@@ -1,0 +1,101 @@
+/* styles for welcome */
+
+ /* styles for login*/
+
+ /* styles for sign in*/
+
+ /* styles for get started*/
+
+ /* styles for how it works*/
+
+
+
+ /* styles for main */
+#background{
+background-color: white;
+}
+#back{
+background-color:#d9ead3ff;
+}
+.rectangle {
+  height: 50px;
+  width: 100px;
+  background-color: #555;
+  align-self: center;
+}
+
+#img{
+  max-width: 67%;
+  height;auto;
+}
+
+#imageUpload
+{
+    display: none;
+
+}
+#background{
+  background: url(baci.png);
+  background-size: 960px 1280p>
+}
+
+#profileImage
+{
+    cursor:nesw-resize;
+    align-self: center;
+}
+
+#profile-container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+      align-self: center;
+}
+
+#profile-container img {
+    width: 150px;
+    height: 150px;
+      align-self: center;
+}
+#cards{
+  position: relative;
+  left:150px;
+  text-align: center;
+
+}
+#photo{
+position:absolute;
+left:900px;
+top: 65%;
+max-width: 300px;
+max-height: 300px;
+}
+#username{
+  position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+.glass{
+  margin: 350px;
+ background-color: #ffffff;
+
+ opacity: 0.6;
+ filter: alpha(opacity=60);
+}
+
+
+ /* styles for breakfast */
+
+ /* styles for lunch */
+
+ /* styles for dinner*/
+
+ /* styles for reclaim */
