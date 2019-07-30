@@ -313,3 +313,12 @@ body {
       box-shadow: 5px 5px;
       border: 2px solid black;
 }
+
+.black{
+  color: black;
+}
+
+#bowl{
+  width: auto;
+  height: 100px;
+}

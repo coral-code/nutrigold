@@ -59,8 +59,9 @@ What did you eat today?
 <script type="text/javascript">
   $( document ).ready(function() {
         $("#bananas").click(function(){
-          console.log(Cookies.get('points'));
-            Cookies.set('points', 20);
+            var points = Cookies.get('points')
+
+            Cookies.set('points',points +  20);
             alert("you got 20 points")
         });
 
