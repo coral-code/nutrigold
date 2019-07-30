@@ -1,4 +1,40 @@
 /* styles for welcome */
+#brocoli{
+  position: absolute;
+    top: 0px;
+    left: 200px;
+}
+#carrot{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+}
+#tomato{
+  position: absolute;
+   top: 0px;
+   left: 400px;
+}
+#indexbg{
+background-image: url("indexbg.png");
+
+}
+#welcome{
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* Bordered form */
 .start{
 
@@ -71,6 +107,13 @@ span.psw {
 /* styles for sign in*/
 
 /* styles for get started*/
+#getstarted{
+display:block;
+margin-left: auto;
+margin-right: auto;
+width:50%;
+
+}
 
 /* styles for how it works*/
 #money{
@@ -79,11 +122,8 @@ span.psw {
 
 
 /* styles for main */
-#background{
-}
 
 
-}
 #back{
 background-color:#d9ead3ff;
 }
@@ -99,10 +139,8 @@ background-color:#d9ead3ff;
 }
 #logout{
   position: absolute;
-    bottom: 8px;
-    right: 16px;
-    font-size: 18px;
-
+    top: 8px;
+    left: 16px;
 }
 #skip{
   position: absolute;
@@ -111,9 +149,14 @@ background-color:#d9ead3ff;
     font-size: 18px;
 }
 
+#howto{
+font-size: 36px;
+
+}
+
 #redeem{
   position: absolute;
-    top: 8px;
+    top: 185px;
     right: 16px;
     font-size: 18px;
 
@@ -269,7 +312,7 @@ body {
 /* styles for reclaim */
 
 #how-to-color{
-  background-color: #FFF8DC;
+  background-color:white;
 }
 .floot-right-boy{
   float: right;
@@ -279,26 +322,25 @@ body {
 }
 
 #profile{
-  width: auto;
-  height: 100px;
-  border-radius: 20%;
-  border: 2px;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+
 }
 #profile-div{
   width: auto;
-  border: 1px solid white;
-  padding: 5px;
+  padding: 0px;
   background-color: #93c47dff;
-  color: white;
-  margin: 0px;
+
 }
 .box-boi{
       width: auto;
-      border: 2px solid white;
       padding: 10px;
       background-color: #38761dff;
-      color: white;
-      margin: 0px;
+}
+  .half-circle {
+    border-top-left-radius: $size * 2;
+border-top-right-radius: $size * 2;
 }
 
 .box-boi-2{
@@ -307,12 +349,13 @@ body {
       margin-right: 30px;
       border-radius: 10px;
       padding: 10px;
-      background-color: green;
+      background-color:#93c47dff ;
       margin: 10px;
       color: white;
       box-shadow: 5px 5px;
-      border: 2px solid black;
+
 }
+
 
 .black{
   color: black;

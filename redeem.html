@@ -1,30 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="utf-8">
-  <meta name="0-viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="style.css">
-<script src="function.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="javascript" href="function.js">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Bootystrap oh yea ;)--->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+
 </head>
-<body id="background">
-  <div id="profile-container">
-     <image id="profileImage" src="dummy.png">
-  </div>
-  <input id="imageUpload" type="file"
-         name="profile_photo" placeholder="Photo" required="" capture>
 
-         <div class="background">
+<body id="how-to-color" class="white-text">
 
 
-     </div>
+    <div id="profile-div">
+      <center><img id="profile" class="media-object " src="https://images.unsplash.com/photo-1542103749-8ef59b94f47e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="...">
+<h3>Coral Miniel</h3>
+    </center>
+    </div>
 
-<div>
-<div>
-<div>
+    <div class="box-boi">
+    <img src="logo.png">
+    <h5 class="text-center">
+      <b>
+      <span id="points">500</span>
+      points</b>
+    </h5>
 
+    </div>
+<div class="container">
+    <div class="row">
+
+      <div class="col">
+            <div class="box-boi-2">
+
+
+      </div>
+
+      <div class="col">
+            <div class="box-boi-2">
+              <h4 class="text-center">Lunch</h4>
+              <a href="breakfast.html" class="btn btn-warning btn-lg btn-block">➕</a>
+            </div>
+      </div>
+
+      <div class="col">
+            <div class="box-boi-2">
+              <h4 class="text-center">Dinner</h4>
+              <button type="button" class="btn btn-warning btn-lg btn-block">➕</button>
+            </div>
+      </div>
+<center><small>project made by coral and drex</small></center>
+
+    </div>
+</div>
+
+// https://coral-code.github.io/nutrigold/menu.html
+<script type="text/javascript">
+  $( document ).ready(function() {
+
+    $("#points").text(Cookies.get('points'));
+  });
+
+
+</script>
 
 </body>
+
 </html>
