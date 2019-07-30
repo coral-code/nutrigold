@@ -60,8 +60,19 @@ What did you eat today?
   $( document ).ready(function() {
         $("#bananas").click(function(){
             var points = Number(Cookies.get('points'))
-
+            if(points = isNaN(points)){
+              Cookies.set('points', 20);
+              alert("you got 20 points")
+          }else{
             Cookies.set('points',points +  20);
+            alert("you got 20 points")
+          }
+        });
+
+        $("#apple").click(function(){
+            var points = Number(Cookies.get('points'))
+
+            Cookies.set('points', points + 40);
             alert("you got 20 points")
         });
 
