@@ -322,3 +322,10 @@ body {
   width: auto;
   height: 100px;
 }
+
+#barow{
+  position: absolute;
+    top: 8px;
+    left: 16px;
+
+}
