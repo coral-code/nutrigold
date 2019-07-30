@@ -15,6 +15,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
 
 </head>
 
@@ -59,17 +61,18 @@
               <button type="button" class="btn btn-warning btn-lg btn-block">➕</button>
             </div>
       </div>
-
+<small>thank you to Girls who code, jquery,bootstrap and js-cookies</small>
 
     </div>
 </div>
 <script type="text/javascript">
   $( document ).ready(function() {
-    $("#points").text("700");
+    $("#points").text(Cookies.get('points'));
   });
 
 
 </script>
+
 </body>
 
 </html>
