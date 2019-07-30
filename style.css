@@ -267,3 +267,49 @@ body {
 /* styles for dinner*/
 
 /* styles for reclaim */
+
+#how-to-color{
+  background-color: #FFF8DC;
+}
+.floot-right-boy{
+  float: right;
+}
+.white-text{
+  color: white;
+}
+
+#profile{
+  width: auto;
+  height: 100px;
+  border-radius: 20%;
+  border: 2px;
+}
+#profile-div{
+  width: auto;
+  border: 1px solid white;
+  padding: 5px;
+  background-color: #93c47dff;
+  color: white;
+  margin: 0px;
+}
+.box-boi{
+      width: auto;
+      border: 2px solid white;
+      padding: 10px;
+      background-color: #38761dff;
+      color: white;
+      margin: 0px;
+}
+
+.box-boi-2{
+      width: auto;
+      margin-left: 30px;
+      margin-right: 30px;
+      border-radius: 10px;
+      padding: 10px;
+      background-color: green;
+      margin: 10px;
+      color: white;
+      box-shadow: 5px 5px;
+      border: 2px solid black;
+}
