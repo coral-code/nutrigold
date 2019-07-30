@@ -59,17 +59,17 @@ What did you eat today?
 <script type="text/javascript">
   $( document ).ready(function() {
         $("#bananas").click(function(){
-            var points = Cookies.get('points')
+            var points = parseInt(Cookies.get('points'))
 
-            Cookies.set('points',points +  20);
+            Cookies.set('points',points  +  20);
             alert("you got 20 points")
         });
 
         $("#apples").click(function(){
-            var points = Number(Cookies.get('points'))
+            var points = parseInt(Cookies.get('points'))
 
-            Cookies.set('points',points +  20);
-            alert("you got 20 points")
+            Cookies.set('points',points +  10);
+            alert("you got 10 points")
         });
 
     // $("#points").text(Cookies.get('points'));
