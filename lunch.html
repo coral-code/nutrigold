@@ -1,18 +1,88 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="function.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="javascript" href="function.js">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Bootystrap oh yea ;)--->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+
 </head>
-<body>
-    <a href="file:///C:/Users/HP/Desktop/nutrigold/main.html"><img id="Barrow" src="https://cdn1.iconfinder.com/data/icons/smallicons-controls/32/614378-left-512.png">
-  <p id="wut">Breakfast</p>
-  <img src="bowl.png" id="bowl">
 
-<div id="circle"></div>
+<body id="how-to-color" class="white-text">
+  <a href="menu.html">
+ <img border="0" alt="W3Schools" src="https://www.searchpng.com/wp-content/uploads/2019/02/Back-Arrow-Icon-PNG.png" width="100" height="100" id=barrow>
+
+    <div id="profile-div">
+      <center><img id="profile" class="media-object " src="https://images.unsplash.com/photo-1542103749-8ef59b94f47e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="...">
+<h3>Coral Miniel</h3>
+    </center>
+    </div>
+
+<h3 class="text-center black">
+What did you eat today?
+</h3>
+
+<center><img id="bowl" src="https://images.unsplash.com/photo-1558828331-868150f235a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80">
+</center>
+<h5 class="black text-center">Breakfast</h5>
+
+<ul class="list-group">
+<!-- first thingy -->
+
+  <a id="apple" class="list-group-item list-group-item-success">
+    <span class="badge badge-success">➕</span>
+    chicken salad
+  </a>
+  <!-- second thingy -->
+  <a id="bananas" class="list-group-item list-group-item-success">
+    <span class="badge badge-success">➕</span>
+    vegan burger
+  </a>
+  <a id="bananas" class="list-group-item list-group-item-success">
+    <span class="badge badge-success">➕</span>
+    green smoothie
+  </a>
+</ul>
+
+<hr>
+<small class="black">thank you to Girls who code, jquery,bootstrap and js-cookies</small>
+
+    </div>
+</div>
+<script type="text/javascript">
+  $( document ).ready(function() {
+        $("#bananas").click(function(){
+            var points = Cookies.get('points')
+
+            Cookies.set('points', parseInt(points)  +  90);
+            alert("you got 90 points")
+        });
+
+        $("#apples").click(function(){
+            var points = Cookies.get('points').
+
+            Cookies.set('points',parseInt(points) +  900);
+            alert("you got 900 points")
+        });
+
+    // $("#points").text(Cookies.get('points'));
+  });
 
 
-
+</script>
 
 </body>
+
 </html>

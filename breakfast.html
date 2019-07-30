@@ -43,12 +43,20 @@ What did you eat today?
 
   <a id="apple" class="list-group-item list-group-item-success">
     <span class="badge badge-success">➕</span>
-    Apples
+    oatmeal
   </a>
   <!-- second thingy -->
   <a id="bananas" class="list-group-item list-group-item-success">
     <span class="badge badge-success">➕</span>
-    Bananas Juanitas
+    fruit salad
+  </a>
+  <a id="bananas" class="list-group-item list-group-item-success">
+    <span class="badge badge-success">➕</span>
+    water
+  </a>
+  <a id="apple" class="list-group-item list-group-item-success">
+    <span class="badge badge-success">➕</span>
+    granola bar
   </a>
 </ul>
 
@@ -59,18 +67,18 @@ What did you eat today?
 </div>
 <script type="text/javascript">
   $( document ).ready(function() {
-        $("#bananas").click(function(){
+        $("#oatmeal").click(function(){
             var points = Cookies.get('points')
 
-            Cookies.set('points', parseInt(points)  +  20);
-            alert("you got 20 points")
+            Cookies.set('points', parseInt(points)  +  200);
+            alert("you got 200 points")
         });
 
-        $("#apples").click(function(){
+        $("#apple").click(function(){
             var points = Cookies.get('points').
 
-            Cookies.set('points',parseInt(points) +  10);
-            alert("you got 10 points")
+            Cookies.set('points',parseInt(points) +  150);
+            alert("you got 150 points")
         });
 
     // $("#points").text(Cookies.get('points'));
