@@ -1,46 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="0-viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
+<script src="function.js"></script>
 </head>
 <body id="background">
   <div id="profile-container">
-   <image id="profileImage" src="dummy.png" />
-</div>
-<input id="imageUpload" type="file"
-       name="profile_photo" placeholder="Photo" required="" capture >
-       <script>
-       $("#profileImage").click(function(e) {
-         $("#imageUpload").click();
-       });
+     <image id="profileImage" src="dummy.png">
+  </div>
+  <input id="imageUpload" type="file"
+         name="profile_photo" placeholder="Photo" required="" capture>
 
-       function fasterPreview( uploader ) {
-         if ( uploader.files && uploader.files[0] ){
-               $('#profileImage').attr('src',
-                  window.URL.createObjectURL(uploader.files[0]) );
-         }
-       }
-
-       $("#imageUpload").change(function(){
-         fasterPreview( this );
-       });
-</script>
-<div class="glass"></div>
-
- <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSxNaGXqtApwkQxy6X_Cv3CBS6J3qThPKzEt_SjNq57RaE79Y_sJNxeITO4g130OmTRMkSd2lDXcn0aGbEAjhe0dJPazYZBaKelGSVnRvRe&usqp=CAE" id="amazon">
-<img src="https://www.highstreetvouchers.com/COMMON/hsv/large/gifts/starbucks-gift-cards-vouchers-1.jpg" id="starbucks">
-<img src="https://slimages.macysassets.com/is/image/MCY/products/2/optimized/8183372_fpx.tif?op_sharpen=1&wid=500&hei=613&fit=fit,1&" id="macys">
+         <div class="background">
 
 
-</div>
+     </div>
+
+<div>
+<div>
+<div>
+
+
 </body>
 </html>
