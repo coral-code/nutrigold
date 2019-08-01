@@ -19,10 +19,7 @@
 background-image: url("indexbg.png");
 
 }
-#welcome{
 
-
-}
 
 
 
@@ -153,12 +150,14 @@ background-color:#d9ead3ff;
 font-size: 36px;
 background-color:green;
 
+#{
+
+}
 #redeem{
   position: absolute;
     top: 185px;
     right: 16px;
     font-size: 18px;
-
 }
 
 #img{
@@ -324,7 +323,9 @@ body {
   width: 125px;
   height: 125px;
   border-radius: 50%;
-
+}
+img{
+  border-radius: 50%;
 }
 #profile-div{
   width: auto;
