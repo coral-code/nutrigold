@@ -59,7 +59,7 @@ What did you eat today?
 <script type="text/javascript">
   $( document ).ready(function() {
         $("#pie").click(function(){
-            var points = Cookies.get('points')
+            var points = Cookies.get('points');
 
             Cookies.set('points', parseInt(points)  +  20);
             alert("you got 20 points")
