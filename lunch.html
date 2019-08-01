@@ -22,36 +22,41 @@
 
 <body id="how-to-color" class="white-text">
   <a href="menu.html">
- <img border="0" alt="W3Schools" src="https://www.searchpng.com/wp-content/uploads/2019/02/Back-Arrow-Icon-PNG.png" width="100" height="100" id=barrow>
+ <img border="0" alt="W3Schools" src="https://www.searchpng.com/wp-content/uploads/2019/02/Back-Arrow-Icon-PNG.png" width="100" height="100" id=barrow></a>
 
- <div id="profile-div">
-   <center><img id="profile" class="media-object " src="https://images.unsplash.com/photo-1542103749-8ef59b94f47e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="...">
+    <div id="profile-div">
+      <center><img id="profile" class="media-object " src="https://png.pngtree.com/element_our/20190529/ourmid/pngtree-flat-pattern-user-pattern-image_1200088.jpg" alt="...">
 <h3>Coral Miniel</h3>
- </center>
- </div>
-
+    </center>
+    </div>
 
 <h3 class="text-center black">
 What did you eat today?
 </h3>
 
-<h5 class="black text-center">Lunch</h5>
+<center><img id="bowl" src="bowl.png">
+</center>
+<h5 class="black text-center">lunch</h5>
 
 <ul class="list-group">
 <!-- first thingy -->
 
   <a id="apple" class="list-group-item list-group-item-success">
     <span class="badge badge-success">➕</span>
-    chicken salad
+vegan burger
   </a>
   <!-- second thingy -->
   <a id="bananas" class="list-group-item list-group-item-success">
     <span class="badge badge-success">➕</span>
-    vegan burger
+    grilled chicken salad
   </a>
   <a id="bananas" class="list-group-item list-group-item-success">
     <span class="badge badge-success">➕</span>
-    green smoothie
+    lettuce tomato avoado wrap
+  </a>
+  <a id="apple" class="list-group-item list-group-item-success">
+    <span class="badge badge-success">➕</span>
+    califlour rice burritos
   </a>
 </ul>
 
@@ -65,15 +70,15 @@ What did you eat today?
         $("#bananas").click(function(){
             var points = Cookies.get('points');
 
-            Cookies.set('points', parseInt(points)  +  90);
-            alert("you got 90 points")
+            Cookies.set('points', parseInt(points)  +  200);
+            alert("you got 200 points")
         });
 
-        $("#apples").click(function(){
+        $("#apple").click(function(){
             var points = Cookies.get('points');
 
-            Cookies.set('points',parseInt(points) +  900);
-            alert("you got 900 points")
+            Cookies.set('points',parseInt(points) +  150);
+            alert("you got 150 points")
         });
 
     // $("#points").text(Cookies.get('points'));
